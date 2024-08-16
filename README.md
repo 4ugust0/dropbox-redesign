@@ -2,28 +2,31 @@
 
 This is a system for share archives!
 
-# Get Started - Front End
+# Get Started
+
 
 1. Clone the repository.
-2. Execute command `npm install` or `yarn install` to install all dependence
-[added more informations ]
+2. Execute command `npm install` or `yarn install` to install all dependence in folder "website" AND "server"
 
-# Development variable
+## Backend
 
-[Define yours development variable]
+Do you need execute express and connect Postgress server in your system.
 
-## Configurations of the development variables
+### Access the "server"
+Inside this folder  - you find a subfolder named "migrations" this folder contains all migration files (I created this folder to store the main files that hold the database SQL code)
 
-Para configurar as variáveis de ambiente necessárias, siga as etapas abaixo:
+### Create the database
+Take the code base and create in the postgress the database for running the system and connect the database in the project.
 
-1. **Location**: All development variable stay in this path:
+For you connect in the database database in project you just go in folder "connect" and connect the credentials OR create the archive ".env" and save the infos according in the "Configurations of the development variables". 
 
-```
-??????
+Warning: I Don't responsability with you modify something in the database!
 
-```
 
-1. **Values of the development variables**: Just a people with permmission can access in the values of the development variable.
+# Configurations of the development variables
+
+
+1. **Values of the development variables**: Just a people with permission can access in the values of the development variable.
 2. Structure of the variables:
 
 ```
