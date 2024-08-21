@@ -59,4 +59,4 @@ The version should be updated according to the commits, below are all the versio
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 00/00/0000 | 0.1.0 | description |
+| 21/08/2024 | 0.1.0 | New component: Title Pattern |
